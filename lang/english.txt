@@ -1,0 +1,18 @@
+STR_TOO_FEW_TOWNS            :Only {NUM} suitable towns found.{}This limits the number of companies, which can have a goal :(
+STR_NO_CARGO                 :Sorry, there are no suitable cargo types for the goal.{}No goal for you :(
+STR_GOAL_START               :{BLACK}Welcome!{}You were born with a silver spoon in your mouth. Now you are are a young grown-up with no liabilities in life. All you know is that you have a secret weakness for {WHITE}{CARGO_LIST}{BLACK}.{}You have set yourself the goal to turn your home town {WHITE}{TOWN}{BLACK} into {WHITE}{CARGO_LIST} Valley{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Build {WHITE}{NUM}{ORANGE} industries producing {WHITE}{CARGO_LIST}{ORANGE} near {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} complete)
+STR_MIN_PRODUCTION           :{ORANGE}Make sure to transport at least {WHITE}{CARGO_LONG}{ORANGE} from each industry within one quarter ({WHITE}{NUM} / {NUM}{ORANGE} last quarter)
+STR_TOTAL_PRODUCTION         :{ORANGE}Make sure to transport at least {WHITE}{CARGO_LONG}{ORANGE} in total from the industries ({WHITE}{CARGO_SHORT}{ORANGE} last quarter)
+STR_TIME_LEFT                :{ORANGE}Complete all goals till {WHITE}{DATE_LONG}{ORANGE} to archieve {STRING}{ORANGE} ({WHITE}{NUM} years and {NUM} months{ORANGE} left)
+
+STR_WON                      :{BLACK}You have won!{}You needed {WHITE}{NUM} years and {NUM} months{BLACK} to archieve the goal.{}That is worth {STRING}{BLACK}!
+STR_WON_GOLD                 :a {WHITE}Gold{NBSP}Medal
+STR_WON_SILVER               :a {WHITE}Silver{NBSP}Medal
+STR_WON_BRONCE               :a {WHITE}Bronze{NBSP}Medal
+STR_WON_FAIL                 :{WHITE}Nothing{BLACK}
+
+STR_FAIL                     :{BLACK}You failed to archive {STRING}{BLACK}.{}You can still try to archive {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} Valley!{}Within {NUM} years and {NUM} months {COMPANY} evolved {TOWN} into the global centre for {CARGO_LIST}.

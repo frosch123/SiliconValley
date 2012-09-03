@@ -38,12 +38,16 @@ Via the script settings the detailed goal parameters can be configured.
 * The total amount of cargo the company has to service at the town to
   archieve the goal.
 
+If you have trouble to deliver cargo to a specific industry (when there are
+multiple industries nearby), make sure that the station sign is directly
+adjacent to an industry tile. (Yes, you will need one station per industry.)
+
 Important for games with a short goal time:
 Since the companies have to fund industries you should add a NewGRF which
 significantly lowers the cost to fund industries.
 For example 'BaseCost Mod" with these settings:
-* Type: Funding industries
-* Type: Build raw industries
+* "Funding industries" -> "quarter"
+* "Build raw industries" -> "3"
 
 
 

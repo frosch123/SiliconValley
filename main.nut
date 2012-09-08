@@ -84,10 +84,10 @@ function MainClass::Load(version, tbl)
 
 function MainClass::Start()
 {
-	this.Init();
-
 	// Wait for the game to start
 	this.Sleep(1);
+
+	this.PostInit();
 
 	while (true) {
 		local loop_start_tick = GSController.GetTick();
@@ -112,7 +112,7 @@ function MainClass::HandleEvents()
 	}
 }
 
-function MainClass::Init()
+function MainClass::PostInit()
 {
 	/* Classify cargos */
 	local indtypes = GSIndustryTypeList();
@@ -192,7 +192,7 @@ function MainClass::Init()
 	if (small_towns.Count() < GSCompany.COMPANY_LAST - GSCompany.COMPANY_FIRST)
 	{
 		GSLog.Warning("Only " + small_towns.Count() + " towns found!");
-		GSGoal.Question(1, GSCompany::COMPANY_INVALID, GSText(GSText.STR_TOO_FEW_TOWNS, small_towns.Count()), GSGoal::GT_WARNING, GSGoal::BUTTON_CONTINUE);
+		GSGoal.Question(1, GSCompany.COMPANY_INVALID, GSText(GSText.STR_TOO_FEW_TOWNS, small_towns.Count()), GSGoal.QT_WARNING, GSGoal.BUTTON_CONTINUE);
 	}
 
 	/* Assigns towns, if not loaded from savegame */

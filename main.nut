@@ -299,7 +299,7 @@ function MainClass::InitNewCompany(cid)
 		goal.cargo_type <- -1;
 		goal.town <- -1;
 		GSLog.Error("Failed to find suitable goal cargo!");
-		GSGoal.Question(1, cid, GSText(GSText.STR_NO_CARGO), GSGoal.QT_ERROR, GSGoal.BUTTON_SURRENDER);
+		GSGoal.Question(2, cid, GSText(GSText.STR_NO_CARGO), GSGoal.QT_ERROR, GSGoal.BUTTON_SURRENDER);
 	}
 	else
 	{
@@ -309,7 +309,7 @@ function MainClass::InitNewCompany(cid)
 		goal.cargo_type <- cargo;
 		goal.town <-this.company_town[cid];
 		GSLog.Info("Assign cargo " + cargo + " to company " + cid);
-		GSGoal.Question(1, cid, GSText(GSText.STR_GOAL_START, 1 << cargo, goal.town, 1 << cargo), GSGoal.QT_INFORMATION, GSGoal.BUTTON_GO);
+		GSGoal.Question(2, cid, GSText(GSText.STR_GOAL_START, 1 << cargo, goal.town, 1 << cargo), GSGoal.QT_INFORMATION, GSGoal.BUTTON_GO);
 	}
 
 	goal.cargo_mask <- 1 << goal.cargo_type;
@@ -450,7 +450,7 @@ function MainClass::NextQuarter(cid)
 		GSLog.Info("Company won: " + cid);
 		goal.won = GSDate.GetCurrentDate();
 		local medal = GetMedal(goal.start, goal.won);
-		GSGoal.Question(1, cid, GSText(GSText.STR_WON, medal.passed_years, medal.passed_months, GSText(medal.medal)), GSGoal.QT_INFORMATION, GSGoal.BUTTON_ACCEPT);
+		GSGoal.Question(3, cid, GSText(GSText.STR_WON, medal.passed_years, medal.passed_months, GSText(medal.medal)), GSGoal.QT_INFORMATION, GSGoal.BUTTON_ACCEPT);
 
 		GSNews.Create(GSNews.NT_GENERAL, GSText(GSText.STR_WON_NEWS, goal.cargo_mask, medal.passed_years, medal.passed_months, cid, goal.town, goal.cargo_mask), GSCompany.COMPANY_INVALID);
 	}
@@ -512,7 +512,7 @@ function MainClass::UpdateGoals(cid)
 		{
 			if (goal.cached_medal != -1)
 			{
-				GSGoal.Question(1, cid, GSText(GSText.STR_FAIL, GSText(goal.cached_medal), GSText(medal.medal)), GSGoal.QT_INFORMATION, GSGoal.BUTTON_CONTINUE);
+				GSGoal.Question(3, cid, GSText(GSText.STR_FAIL, GSText(goal.cached_medal), GSText(medal.medal)), GSGoal.QT_INFORMATION, GSGoal.BUTTON_CONTINUE);
 			}
 			goal.cached_medal = medal.medal;
 		}

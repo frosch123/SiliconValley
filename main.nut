@@ -122,7 +122,7 @@ function MainClass::PostInit()
 		{
 			this.primary_cargos.AddList(GSIndustryType.GetProducedCargo(it));
 		}
-		else if (!GSIndustryType.GetAcceptedCargo(it).IsEmpty())
+		else if (GSIndustryType.IsProcessingIndustry(it) && !GSIndustryType.GetAcceptedCargo(it).IsEmpty())
 		{
 			this.secondary_cargos.AddList(GSIndustryType.GetProducedCargo(it));
 		}

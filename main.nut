@@ -293,7 +293,15 @@ function MainClass::InitNewCompany(cid)
 
 	/* Select cargo */
 	local goal = this.company_goal[cid];
-	if (cargos.IsEmpty() || this.company_town.len() <= cid)
+	if (this.company_town[cid] == null)
+	{
+		/* Mark as failed */
+		goal.cargo_type <- -1;
+		goal.town <- -1;
+		GSLog.Error("Failed to find suitable town!");
+		GSGoal.Question(2, cid, GSText(GSText.STR_NO_TOWN), GSGoal.QT_ERROR, GSGoal.BUTTON_SURRENDER);
+	}
+	else if (cargos.IsEmpty())
 	{
 		/* Mark as failed */
 		goal.cargo_type <- -1;

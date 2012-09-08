@@ -1,4 +1,5 @@
 STR_TOO_FEW_TOWNS            :Only {NUM} suitable towns found.{}This limits the number of companies, which can have a goal :(
+STR_NO_TOWN                  :Sorry, there is no suitable town for a goal.{}No goal for you :(
 STR_NO_CARGO                 :Sorry, there are no suitable cargo types for a goal.{}No goal for you :(
 STR_GOAL_START               :{BLACK}Welcome!{}You were born with a silver spoon in your mouth. Now you are are a young grown-up with no liabilities in life. All you know is that you have a secret weakness for {WHITE}{CARGO_LIST}{BLACK}.{}You have set yourself the goal to turn your home town {WHITE}{TOWN}{BLACK} into {WHITE}{CARGO_LIST} Valley{BLACK}!
 

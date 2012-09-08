@@ -5,3 +5,4 @@
  */
 
 SELF_VERSION <- 1;
+SELF_DATE <- "2012-09-02";

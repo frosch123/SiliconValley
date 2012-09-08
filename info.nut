@@ -27,11 +27,11 @@ class FMainClass extends GSInfo {
 	function GetName()			{ return "SiliconValley"; }
 	function GetDescription() 	{ return "SiliconValley"; }
 	function GetVersion()		{ return SELF_VERSION; }
-	function GetDate()			{ return "2012-09-02"; }
+	function GetDate()			{ return SELF_DATE; }
 	function CreateInstance()	{ return "MainClass"; }
 	function GetShortName()		{ return "SIVY"; }
-	function GetAPIVersion()	{ return "1.2"; }
-	function GetUrl()			{ return ""; }
+	function GetAPIVersion()	{ return "1.3"; }
+	function GetUrl()			{ return "http://dev.openttdcoop.org/projects/siliconvalley"; }
 
 	function GetSettings() {
 		AddSetting({

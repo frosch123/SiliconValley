@@ -127,6 +127,17 @@ function MainClass::PostInit()
 			this.secondary_cargos.AddList(GSIndustryType.GetProducedCargo(it));
 		}
 	}
+
+	/* Filter for pax and mail */
+	this.primary_cargos.Valuate(GSCargo.HasCargoClass, GSCargo.CC_PASSENGERS);
+	this.primary_cargos.KeepValue(0);
+	this.primary_cargos.Valuate(GSCargo.HasCargoClass, GSCargo.CC_MAIL);
+	this.primary_cargos.KeepValue(0);
+	this.secondary_cargos.Valuate(GSCargo.HasCargoClass, GSCargo.CC_PASSENGERS);
+	this.secondary_cargos.KeepValue(0);
+	this.secondary_cargos.Valuate(GSCargo.HasCargoClass, GSCargo.CC_MAIL);
+	this.secondary_cargos.KeepValue(0);
+
 	local indefinite_cargos = GSList();
 	indefinite_cargos.AddList(this.primary_cargos);
 	indefinite_cargos.KeepList(this.secondary_cargos);

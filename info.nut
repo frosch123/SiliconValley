@@ -60,7 +60,7 @@ class FMainClass extends GSInfo {
 				name = "min_amount",
 				description = "Minimum amount of cargo to produce/transport per industry within a quarter",
 				min_value = 1, max_value = 100000,
-				easy_value = 100, medium_value = 100, hard_value = 100, custom_value = 100,
+				easy_value = 200, medium_value = 300, hard_value = 500, custom_value = 300,
 				flags = CONFIG_NONE,
 			});
 		AddSetting({

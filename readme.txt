@@ -10,11 +10,11 @@ Contents
 1 About Silicon Valley
 ======================
 
-Silicon Valley is a GameScript for OpenTTD 1.2 or newer.
+Silicon Valley is a GameScript for OpenTTD 1.3 or newer.
 
 It challenges every company to turn a specific town into a global production
 centre for a specialised cargo. Every company is assigned a slightly different
-goal, but they all have the same time period to archieve their goal. To archieve
+goal, but they all have the same time period to achieve their goal. To achieve
 the goal, the companies do not only have to transport lots of cargo to and from
 their town, they also have to fund sufficient industries to produce the cargo.
 
@@ -25,8 +25,8 @@ their town, they also have to fund sufficient industries to produce the cargo.
 
 Via the script settings the detailed goal parameters can be configured.
 
-* A time frame to complete the goal and archieve a Gold Medal.
-  To archive Silver or Bronze Medals the companies have 50% resp. 100% more
+* A time frame to complete the goal and achieve a Gold Medal.
+  To achive Silver or Bronze Medals the companies have 50% resp. 100% more
   time.
 * The type of cargo to use for the challenge, either Primary, Secondary or
   Any type.
@@ -36,7 +36,7 @@ Via the script settings the detailed goal parameters can be configured.
 * The minimal amount of cargo the company has to service for each of the
   industries to make them count for the goal.
 * The total amount of cargo the company has to service at the town to
-  archieve the goal.
+  achieve the goal.
 
 If you have trouble to deliver cargo to a specific industry (when there are
 multiple industries nearby), make sure that the station sign is directly

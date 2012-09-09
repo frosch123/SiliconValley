@@ -82,4 +82,5 @@ Authors:
    GS framework:     Leif Linse (aka Zuu)
 
 Translations:
+   Dutch:            Albert Hofkamp (aka Alberth)
    Here could be your name! :)

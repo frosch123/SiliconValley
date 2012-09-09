@@ -30,7 +30,7 @@ class MainClass extends GSController
 	primary_cargos = GSList();
 	secondary_cargos = GSList();
 	company_town = null;
-	industry_town = GSList();
+	tile_town = GSList();
 
 	company_goal = array(GSCompany.COMPANY_LAST, {});
 	last_month = 0;
@@ -240,15 +240,6 @@ function MainClass::PostInit()
 
 function MainClass::DoTest()
 {
-	/* Update town cache */
-	local indlist = GSIndustryList();
-	this.industry_town.KeepList(indlist);
-	indlist.RemoveList(this.industry_town);
-	for (local it = indlist.Begin(); !indlist.IsEnd(); it = indlist.Next())
-	{
-		this.industry_town.AddItem(it, GSTile.GetClosestTown(GSIndustry.GetLocation(it)));
-	}
-
 	local cur_month = GSDate.GetMonth(GSDate.GetCurrentDate());
 	local new_quarter = false;
 	if (cur_month != this.last_month)
@@ -352,6 +343,15 @@ function MainClass::InitNewCompany(cid)
 	goal.won <- 0;
 }
 
+function MainClass::GetIndustryTown(ind, cache)
+{
+	local tile = GSIndustry.GetLocation(ind);
+	if (cache.HasItem(tile)) return cache.GetValue(tile);
+	local town = GSTile.GetClosestTown(tile);
+	cache.AddItem(tile, town);
+	return town;
+}
+
 function MainClass::QueryMonitor(ind, cid, cargo_type)
 {
 	return GSCargoMonitor.GetIndustryPickupAmount(cid, cargo_type, ind, true);
@@ -361,10 +361,9 @@ function MainClass::UpdateMonitors(cid)
 {
 	local goal = this.company_goal[cid];
 
-	local indlist = GSList();
-	indlist.AddList(this.industry_town);
+	local indlist = GSIndustryList_CargoProducing(goal.cargo_type);
+	indlist.Valuate(GetIndustryTown, this.tile_town);
 	indlist.KeepValue(goal.town);
-	indlist.KeepList(GSIndustryList_CargoProducing(goal.cargo_type));
 
 	goal.cur_industry_amount = indlist.Count();
 

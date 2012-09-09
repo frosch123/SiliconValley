@@ -1,14 +1,16 @@
-STR_TOO_FEW_TOWNS            :Only {NUM} suitable towns found.{}This limits the number of companies, which can have a goal :(
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Only {NUM} suitable town{P "" s} found.{}This limits the number of companies, which can have a goal :(
 STR_NO_TOWN                  :Sorry, there is no suitable town for a goal.{}No goal for you :(
 STR_NO_CARGO                 :Sorry, there are no suitable cargo types for a goal.{}No goal for you :(
 STR_GOAL_START               :{BLACK}Welcome!{}You were born with a silver spoon in your mouth. Now you are are a young grown-up with no liabilities in life. All you know is that you have a secret weakness for {WHITE}{CARGO_LIST}{BLACK}.{}You have set yourself the goal to turn your home town {WHITE}{TOWN}{BLACK} into {WHITE}{CARGO_LIST} Valley{BLACK}!
 
-STR_NUM_INDUSTRIES           :{ORANGE}Build {WHITE}{NUM}{ORANGE} industries producing {WHITE}{CARGO_LIST}{ORANGE} near {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} complete)
+STR_NUM_INDUSTRIES           :{ORANGE}Build {WHITE}{NUM}{ORANGE} industr{P y ies} producing {WHITE}{CARGO_LIST}{ORANGE} near {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} complete)
 STR_MIN_PRODUCTION           :{ORANGE}Make sure to transport at least {WHITE}{CARGO_LONG}{ORANGE} from each industry within one quarter ({WHITE}{NUM} / {NUM}{ORANGE} last quarter)
 STR_TOTAL_PRODUCTION         :{ORANGE}Make sure to transport at least {WHITE}{CARGO_LONG}{ORANGE} in total from the industries ({WHITE}{CARGO_SHORT}{ORANGE} last quarter)
-STR_TIME_LEFT                :{ORANGE}Complete all goals till {WHITE}{DATE_LONG}{ORANGE} to achieve {STRING}{ORANGE} ({WHITE}{NUM} years and {NUM} months{ORANGE} left)
+STR_TIME_LEFT                :{ORANGE}Complete all goals till {WHITE}{DATE_LONG}{ORANGE} to achieve {STRING}{ORANGE} ({WHITE}{NUM} year{P "" s} and {NUM} month{P "" s}{ORANGE} left)
 
-STR_WON                      :{BLACK}You have won!{}You needed {WHITE}{NUM} years and {NUM} months{BLACK} to achieve the goal.{}That is worth {STRING}{BLACK}!
+STR_WON                      :{BLACK}You have won!{}You needed {WHITE}{NUM} year{P "" s} and {NUM} month{P "" s}{BLACK} to achieve the goal.{}That is worth {STRING}{BLACK}!
 STR_WON_GOLD                 :a {WHITE}Gold{NBSP}Medal
 STR_WON_SILVER               :a {WHITE}Silver{NBSP}Medal
 STR_WON_BRONCE               :a {WHITE}Bronze{NBSP}Medal
@@ -16,4 +18,4 @@ STR_WON_FAIL                 :{WHITE}Nothing{BLACK}
 
 STR_FAIL                     :{BLACK}You failed to achieve {STRING}{BLACK}.{}You can still try to achieve {STRING}{BLACK}.
 
-STR_WON_NEWS                 :{CARGO_LIST} Valley!{}Within {NUM} years and {NUM} months {COMPANY} evolved {TOWN} into the global centre for {CARGO_LIST}.
+STR_WON_NEWS                 :{CARGO_LIST} Valley!{}Within {NUM} year{P "" s} and {NUM} month{P "" s} {COMPANY} evolved {TOWN} into the global centre for {CARGO_LIST}.

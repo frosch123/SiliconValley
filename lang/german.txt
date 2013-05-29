@@ -1,0 +1,21 @@
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Es wurden nur {NUM} geeignete St{P adt ädte} gefunden.{}Das limitiert die Anzahl Firmen, denen ein Ziel zugewiesen werden kann. :-(
+STR_NO_TOWN                  :Entschuldigung, es gibt keine geeignete Stadt für das Ziel.{}Es gibt kein Ziel für Dich. :-(
+STR_NO_CARGO                 :Entschuldigung, es gibt keine passenden Frachtarten für das Ziel.{}Es gibt kein Ziel für Dich. :-(
+STR_GOAL_START               :{BLACK}Willkommen!{}Du bist als Kind reicher Eltern aufgewachsen. Nun da Du das Erwachsenenalter erreicht hast, hast Du keinerlei Verpflichtungen oder Sorgen. Der einzige Antrieb in Deinem Leben ist Deine heimliche Liebe für {WHITE}{CARGO_LIST}{BLACK}.{}Du hast Dir zum Ziel gesetzt, Deine Heimatstadt {WHITE}{TOWN}{BLACK} in ein {WHITE}{CARGO_LIST}-Tal{BLACK} zu verwandeln!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Baue {WHITE}{0:NUM}{ORANGE} Industrie{P "" n} bei {WHITE}{2:TOWN}{ORANGE}, die {WHITE}{1:CARGO_LIST}{ORANGE} produzieren ({WHITE}{3:NUM} / {4:NUM}{ORANGE} fertig)
+STR_MIN_PRODUCTION           :{ORANGE}Stelle sicher, dass Du innerhalb eines Quartals mindestens {WHITE}{CARGO_LONG}{ORANGE} von jeder Industrie transportierst ({WHITE}{NUM} / {NUM}{ORANGE} im letzten Quartal)
+STR_TOTAL_PRODUCTION         :{ORANGE}Stelle sicher, dass Du innerhalb eines Quartals von den Industrien in Summe mindestens {WHITE}{CARGO_LONG}{ORANGE} transportierst ({WHITE}{CARGO_SHORT}{ORANGE} im letzten Quartal)
+STR_TIME_LEFT                :{ORANGE}Erfülle alle Ziele bis {WHITE}{DATE_LONG}{ORANGE} um {STRING}{ORANGE} zu gewinnen ({WHITE}{NUM} Jahr{P "" e} und {NUM} Monat{P "" e}{ORANGE} verbleiben)
+
+STR_WON                      :{BLACK}Du hast gewonnen!{}Du brauchtest {WHITE}{NUM} Jahr{P "" e} und {NUM} Monat{P "" e}{BLACK} um das Ziel zu erreichen.{}Damit gewinnst Du {STRING}{BLACK}!
+STR_WON_GOLD                 :eine {WHITE}Goldmedallie
+STR_WON_SILVER               :eine {WHITE}Silvermedallie
+STR_WON_BRONCE               :eine {WHITE}Bronzemedallie
+STR_WON_FAIL                 :{WHITE}nichts
+
+STR_FAIL                     :{BLACK}Du hast {STRING}{BLACK} nicht erreicht.{}Du kannst noch probieren, {STRING}{BLACK} zu erreichen.
+
+STR_WON_NEWS                 :{CARGO_LIST}-Tal!{}Innerhalb {NUM} Jahr{P "" e} und {NUM} Monat{P "" e} entwickelte {COMPANY} {TOWN} in eine globales Zentrum für {CARGO_LIST}.

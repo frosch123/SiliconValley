@@ -14,7 +14,7 @@ STR_WON                      :{BLACK}Je hebt gewonnen!{}Je had {WHITE}{NUM} ja{P
 STR_WON_GOLD                 :een {WHITE}gouden{NBSP}medaille
 STR_WON_SILVER               :een {WHITE}silveren{NBSP}medaille
 STR_WON_BRONCE               :een {WHITE}bronzen{NBSP}medaille
-STR_WON_FAIL                 :{WHITE}niets{BLACK}
+STR_WON_FAIL                 :{WHITE}niets
 
 STR_FAIL                     :{BLACK}Je hebt gefaald in het behalen van {STRING}{BLACK}.{}Je kunt nog proberen om {STRING}{BLACK} te behalen.
 

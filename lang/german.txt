@@ -11,11 +11,11 @@ STR_TOTAL_PRODUCTION         :{ORANGE}Stelle sicher, dass Du innerhalb eines Qua
 STR_TIME_LEFT                :{ORANGE}Erfülle alle Ziele bis {WHITE}{DATE_LONG}{ORANGE} um {STRING}{ORANGE} zu gewinnen ({WHITE}{NUM} Jahr{P "" e} und {NUM} Monat{P "" e}{ORANGE} verbleiben)
 
 STR_WON                      :{BLACK}Du hast gewonnen!{}Du brauchtest {WHITE}{NUM} Jahr{P "" e} und {NUM} Monat{P "" e}{BLACK} um das Ziel zu erreichen.{}Damit gewinnst Du {STRING}{BLACK}!
-STR_WON_GOLD                 :eine {WHITE}Goldmedallie
-STR_WON_SILVER               :eine {WHITE}Silvermedallie
-STR_WON_BRONCE               :eine {WHITE}Bronzemedallie
-STR_WON_FAIL                 :{WHITE}nichts
+STR_WON_GOLD                 :eine {WHITE}Goldmedaille
+STR_WON_SILVER               :eine {WHITE}Silvermedaille
+STR_WON_BRONCE               :eine {WHITE}Bronzemedaille
+STR_WON_FAIL                 :einen {WHITE}Lolly
 
 STR_FAIL                     :{BLACK}Du hast {STRING}{BLACK} nicht erreicht.{}Du kannst noch probieren, {STRING}{BLACK} zu erreichen.
 
-STR_WON_NEWS                 :{CARGO_LIST}-Tal!{}Innerhalb {NUM} Jahr{P "" e} und {NUM} Monat{P "" e} entwickelte {COMPANY} {TOWN} in eine globales Zentrum für {CARGO_LIST}.
+STR_WON_NEWS                 :{CARGO_LIST}-Tal!{}Innerhalb von {NUM} Jahr{P "" en} und {NUM} Monat{P "" en} entwickelte {COMPANY} {TOWN} in ein globales Zentrum für {CARGO_LIST}.

@@ -14,7 +14,7 @@ STR_WON                      :{BLACK}You have won!{}You needed {WHITE}{NUM} year
 STR_WON_GOLD                 :a {WHITE}Gold{NBSP}Medal
 STR_WON_SILVER               :a {WHITE}Silver{NBSP}Medal
 STR_WON_BRONCE               :a {WHITE}Bronze{NBSP}Medal
-STR_WON_FAIL                 :{WHITE}Nothing
+STR_WON_FAIL                 :a {WHITE}cookie
 
 STR_FAIL                     :{BLACK}You failed to achieve {STRING}{BLACK}.{}You can still try to achieve {STRING}{BLACK}.
 

@@ -1,0 +1,19 @@
+STR_TOO_FEW_TOWNS            :Nalezeno pouze {NUM} vhodných měst. {}Kvůli tomu může hrát jen omezený počet společností :(
+STR_NO_TOWN                  :Omlouváme se, ale není pro Vás žádné vhodné město. Žádný cíl nebude. :(    
+STR_NO_CARGO                 :Omlouváme se, ale není pro Vás žádná vhodná přeprava. Žádný cíl nebude. :(     
+STR_GOAL_START               :{BLACK}Vítejte!{}Narodili jste se do bohaté rodiny. Nyní jste mladí, neklidní a bez závazků. Jediné, co vás žene, je vaše tajná slabost pro {WHITE}{CARGO_LIST}{BLACK}.{}Chcete, aby se vaše rodné město {WHITE}{TOWN}{BLACK} stalo králem přepravy {WHITE}{CARGO_LIST}{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Postavte {WHITE}{NUM}{ORANGE} továren produkujících {WHITE}{CARGO_LIST}{ORANGE} poblíž {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} postaveno)
+STR_MIN_PRODUCTION           :{ORANGE}Ujistěte se, že přepravujete alespoň {WHITE}{CARGO_LONG}{ORANGE} z každého odvětví v rámci jednoho čtvrtletí ({WHITE}{NUM} / {NUM}{ORANGE} poslední čtvrtletí)
+STR_TOTAL_PRODUCTION         :{ORANGE}Ujistěte se, že přepravujete alespoň {WHITE}{CARGO_LONG}{ORANGE} celkem ze všech odvětví průmyslu ({WHITE}{CARGO_SHORT}{ORANGE} poslední čtvrtletí)
+STR_TIME_LEFT                :{ORANGE}Dokončete všechny cíle do {WHITE}{DATE_LONG}{ORANGE} abyste vyhráli {STRING}{ORANGE} (zbývá {WHITE}{NUM} let a {NUM} měsáců {ORANGE})
+
+STR_WON                      :{BLACK}Vyhráli jste!{}Trvalo vám {WHITE}{NUM} let a {NUM} měsíců{BLACK}, než jste dosáhli uspěchu.{}{STRING}{BLACK}!
+STR_WON_GOLD                 :Za to si zasloužíte {WHITE}ZLATOU{NBSP}Medaili
+STR_WON_SILVER               :Za to si zasloužíte {WHITE}STŘÍBRNOU{NBSP}Medaili
+STR_WON_BRONCE               :Za to si zasloužíte {WHITE}BRONZOVOU{NBSP}Medaili
+STR_WON_FAIL                 :Za to si nezasloužíte {WHITE}NIC
+
+STR_FAIL                     :{BLACK}Nepodařilo se vám dosáhnout {STRING}{BLACK}.{}Stále ještě se můžete pokusit o splnění {STRING}{BLACK}.
+
+STR_WON_NEWS                 :Království {CARGO_LIST}!{}Během {NUM} let a {NUM} měsíců se firmě {COMPANY} podařilo učinit {TOWN} světovým centrem pro {CARGO_LIST}.

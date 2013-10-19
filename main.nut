@@ -20,7 +20,7 @@
  *
  */
 
-import("util.superlib", "SuperLib", 25);
+import("util.superlib", "SuperLib", 36);
 Helper <- SuperLib.Helper;
 
 class MainClass extends GSController 

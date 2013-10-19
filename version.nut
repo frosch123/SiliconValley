@@ -4,5 +4,5 @@
  * to be available when OpenTTD scans the info.nut file.
  */
 
-SELF_VERSION <- 2;
-SELF_DATE <- "2012-09-08";
+SELF_VERSION <- 3;
+SELF_DATE <- "2013-10-19";

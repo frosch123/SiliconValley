@@ -1,6 +1,7 @@
-STR_TOO_FEW_TOWNS            :Nalezeno pouze {NUM} vhodných měst. {}Kvůli tomu může hrát jen omezený počet společností :(
-STR_NO_TOWN                  :Omlouváme se, ale není pro Vás žádné vhodné město. Žádný cíl nebude. :(    
-STR_NO_CARGO                 :Omlouváme se, ale není pro Vás žádná vhodná přeprava. Žádný cíl nebude. :(     
+
+STR_TOO_FEW_TOWNS            :Nalezeno pouze {NUM} vhodných měst.{}Kvůli tomu může hrát jen omezený počet společností :(
+STR_NO_TOWN                  :Omlouváme se, ale není pro Vás žádné vhodné město. Žádný cíl nebude. :(
+STR_NO_CARGO                 :Omlouváme se, ale není pro Vás žádná vhodná přeprava. Žádný cíl nebude. :(
 STR_GOAL_START               :{BLACK}Vítejte!{}Narodili jste se do bohaté rodiny. Nyní jste mladí, neklidní a bez závazků. Jediné, co vás žene, je vaše tajná slabost pro {WHITE}{CARGO_LIST}{BLACK}.{}Chcete, aby se vaše rodné město {WHITE}{TOWN}{BLACK} stalo králem přepravy {WHITE}{CARGO_LIST}{BLACK}!
 
 STR_NUM_INDUSTRIES           :{ORANGE}Postavte {WHITE}{NUM}{ORANGE} továren produkujících {WHITE}{CARGO_LIST}{ORANGE} poblíž {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} postaveno)

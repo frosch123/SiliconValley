@@ -1,0 +1,2 @@
+Update: Translations
+cs_CZ: 1 change by eints

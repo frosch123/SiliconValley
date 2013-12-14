@@ -1,0 +1,21 @@
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Endast {NUM} lämplig{P "" a} st{P ad äder} hittades.{}Detta begränsar antalet företag som kan tilldelas ett mål :(
+STR_NO_TOWN                  :Tyvärr finns det ingen stad som lämpar sig för att användas som mål-stad.{}Så, inget mål för dig :(
+STR_NO_CARGO                 :Tyvärr finns det inga lämpliga godstyper att använda som mål.{}Så, inget mål för dig :(
+STR_GOAL_START               :{BLACK}Välkommen!{}Du föddes med en silversked i munnen. Du har nyss blivit myndig utan några bekymmer eller hinder i livet. Det enda du vet är att du har en svaghet för {WHITE}{CARGO_LIST}{BLACK}.{}Du har bestämt dig för målsättningen att förvandla din hemstad {WHITE}{TOWN}{BLACK} till ett nytt {WHITE}{CARGO_LIST}-holmen Sience Park{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Bygg {WHITE}{NUM}{ORANGE} industri{P "" er} som producerar {WHITE}{CARGO_LIST}{ORANGE} nära {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} slutförda)
+STR_MIN_PRODUCTION           :{ORANGE}Transportera minst {WHITE}{CARGO_LONG}{ORANGE} från varje industri under ett och samma kvartal ({WHITE}{NUM} / {NUM}{ORANGE} senaste kvartal)
+STR_TOTAL_PRODUCTION         :{ORANGE}Transportera minst {WHITE}{CARGO_LONG}{ORANGE} totalt från alla industrierna ({WHITE}{CARGO_SHORT}{ORANGE} senaste kvartal)
+STR_TIME_LEFT                :{ORANGE}Slutför samtliga mål innan {WHITE}{DATE_LONG}{ORANGE} för att uppnå {STRING}{ORANGE} ({WHITE}{NUM} år och {NUM} månad{P "" er}{ORANGE} kvar)
+
+STR_WON                      :{BLACK}Du har vunnit!{}Du har använt {WHITE}{NUM} år och {NUM} månad{P "" er}{BLACK} för att uppnå målet.{}Det ger dig {STRING}{BLACK} i belöning!
+STR_WON_GOLD                 :en {WHITE}Guldmedalj
+STR_WON_SILVER               :en {WHITE}Silvermedalj
+STR_WON_BRONCE               :en {WHITE}Bronsmedalj
+STR_WON_FAIL                 :en {WHITE}kaka
+
+STR_FAIL                     :{BLACK}Du misslyckades med att slutföra målet för att erhålla {STRING}{BLACK}.{}Du kan fortfarande försöka erhålla {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST}-holmen!{}Innom {NUM} år och {NUM} månad{P "" er} {COMPANY} har {TOWN} utvecklats till ett globalt center för {CARGO_LIST}.

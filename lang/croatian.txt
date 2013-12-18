@@ -1,0 +1,21 @@
+##plural 6
+
+STR_TOO_FEW_TOWNS            :Samo {NUM} su odgovarajući grad{P "" "" ovi} pronađeni.{}Ovo ograničava broj kompanije koje mogu imati cilj :(
+STR_NO_TOWN                  :Žao nam je, nema odgovarajućeg grada za cilj.{}Nema cilja za vas :(
+STR_NO_CARGO                 :Žao nam je, nema odgovarajućeg tereta za cilj.{}Nema cilja za vas :(
+STR_GOAL_START               :{BLACK}Dobrodošli!{}Od rođenja ste imali sve. Sada ste odrasli i nemate nikakvih problema u životu. Sve što znate je da imate tajnu želju za {WHITE}{CARGO_LIST}{BLACK}.{}Postavili ste si cilj da pretvorite vaš grad {WHITE}{TOWN}{BLACK} u {WHITE}{CARGO_LIST} Dolinu{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Izgradite {WHITE}{NUM}{ORANGE} industr{P iju ije ije} koja proizvodi {WHITE}{CARGO_LIST}{ORANGE} pokraj {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} gotovo)
+STR_MIN_PRODUCTION           :{ORANGE}Potrudite se da prevezete barem {WHITE}{CARGO_LONG}{ORANGE} od svake industrije unutar jednog tromjesečja ({WHITE}{NUM} / {NUM}{ORANGE} posljednje tromjesečje)
+STR_TOTAL_PRODUCTION         :{ORANGE}Potrudite se da prevezete barem {WHITE}{CARGO_LONG}{ORANGE} ukupno od industrija ({WHITE}{CARGO_SHORT}{ORANGE} posljednje tromjesečje)
+STR_TIME_LEFT                :{ORANGE}Postignite sve ciljeve do {WHITE}{DATE_LONG}{ORANGE} za postizanje ostaje {STRING}{ORANGE} ({WHITE}{NUM} godin{P a a a} i {NUM} mjesec{P i i i}{ORANGE})
+
+STR_WON                      :{BLACK}Pobijedili ste!{}Trebali ste {WHITE}{NUM} godin{P "" "a" "e"} i {NUM} mjesec{P "" "a" "i"}{BLACK} za postizanje cilja.{}To vrijedi {STRING}{BLACK}!
+STR_WON_GOLD                 :{WHITE}Zlatna{NBSP}Medalja
+STR_WON_SILVER               :{WHITE}Srebrna{NBSP}Medalja
+STR_WON_BRONCE               :{WHITE}Brončana{NBSP}Medalja
+STR_WON_FAIL                 :{WHITE}cookie
+
+STR_FAIL                     :{BLACK}Niste uspjeli postići {STRING}{BLACK}.{}Još možete postići {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} Dolina!{}Unutar {NUM} godin{P "" "e" "a"} i {NUM} mjesec{P "" a i} {COMPANY} je narasla {TOWN} u globalni centar za {CARGO_LIST}.

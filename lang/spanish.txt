@@ -1,0 +1,7 @@
+##plural 0
+
+
+
+
+STR_FAIL                     :{BLACK}Has fallado a la hora de lograr {STRING}{BLACK}.{}Todavía puedes intentar, y ahora conseguir {STRING}{BLACK}.
+

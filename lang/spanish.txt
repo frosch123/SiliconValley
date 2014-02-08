@@ -3,7 +3,9 @@
 STR_GOAL_START               :{BLACK}¡Bienvenido!{}Naciste con un pan bajo el brazo y todo en la vida te ha venido rodado. Ahora, eres un joven adulto sin responsabilidades en la vida. Todo lo que sabes es que tienes una debilidad secreta por {WHITE}{CARGO_LIST}{BLACK}.{}Y así, lleno de esperanzas, te has fijado el objetivo de convertir tu ciudad natal {WHITE}{TOWN}{BLACK} en ¡{WHITE}El valle de {CARGO_LIST}{BLACK}!
 
 
-STR_WON_GOLD                 :Una {NBSP}medalla de{WHITE} oro
+STR_WON_GOLD                 :Una {NBSP}medalla de {WHITE}oro
+STR_WON_SILVER               :Una {NBSP}medalla de {WHITE}plata
+STR_WON_BRONCE               :Una {NBSP}medalla de {WHITE}bronce
 STR_WON_FAIL                 :Una {WHITE}galleta (y está un poco rancia) :-(
 
 STR_FAIL                     :{BLACK}Has fallado a la hora de lograr {STRING}{BLACK}.{}Todavía puedes intentar, y ahora conseguir {STRING}{BLACK}.

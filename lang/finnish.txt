@@ -1,0 +1,21 @@
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Vain {NUM} sopiva{P "" a} kaupunki{P "" a} löytynyt.{}Tämä rajoittaa tavoitteellisten yhtiöiden määrää :(
+STR_NO_TOWN                  :Olen pahoillani, mutta ei ole sopivaa kaupunkia tavoitetta varten.{}Sinulla ei ole tavoitetta :(
+STR_NO_CARGO                 :Olen pahoillani, mutta ei ole sopivaa rahtia tavoitetta varten.{}Sinulla ei ole tavoitetta :(
+STR_GOAL_START               :{BLACK}Tervetuloa!{}Synnyit hopealusikka suussa. Nyt olet nuori aikuinen ilman velvollisuuksia elämässä. Kaikki, mitä tiedät, on, että sinulla on salainen himo kerätä tavaroita, erityisesti yhtä niistä. {WHITE}{CARGO_LIST}{BLACK}.{}Olet asettanut itsellesi tavoitteen muuttaa kotikaupunkisi, nimeltään {WHITE}{TOWN}{BLACK}, suureksi {WHITE}{CARGO_LIST}tehtaaksi{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Rakenna {WHITE}{NUM}{ORANGE} tehdas{P "" ta}, jotka tuottavat {WHITE}{CARGO_LIST}{ORANGE} kaupungin {WHITE}{TOWN}{ORANGE} läheisyyteen ({WHITE}{NUM} / {NUM}{ORANGE} rakennettu)
+STR_MIN_PRODUCTION           :{ORANGE}Varmista, että kuljetat vähintään {WHITE}{CARGO_LONG}{ORANGE} joka teollisuudesta vuosineljänneksen aikana ({WHITE}{NUM} / {NUM}{ORANGE} viime vuosineljänneksenä)
+STR_TOTAL_PRODUCTION         :{ORANGE}Varmista, että kuljetat vähintään {WHITE}{CARGO_LONG}{ORANGE} kaikkiaan teollisuuksista ({WHITE}{CARGO_SHORT}{ORANGE} viime vuosineljänneksenä)
+STR_TIME_LEFT                :{ORANGE}Täytä kaikki tavoitteet {WHITE}{DATE_LONG}{ORANGE} asti saavuttaaksesi {STRING}{ORANGE} ({WHITE}Jäljellä vuosia: {NUM}, kuukausia: {NUM}{ORANGE})
+
+STR_WON                      :{BLACK}Olet voittanut!{}Kulunut aika: {WHITE}vuosia: {NUM}, kuukausia: {NUM}{BLACK}.{}Ansaitsit {STRING}{BLACK}!
+STR_WON_GOLD                 :{WHITE}Kultamitalin
+STR_WON_SILVER               :{WHITE}Hopeamitalin
+STR_WON_BRONCE               :{WHITE}Pronssimitalin
+STR_WON_FAIL                 :{WHITE}keksin
+
+STR_FAIL                     :{BLACK}Et onnistunut täyttämään tavoitetta ajoissa, joten menetit {STRING}{BLACK}.{}Voit silti yrittää saavuttaa {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST}tehdas!{}{NUM} vuoden ja {NUM} kuukauden aikana {COMPANY} kehitti kaupungin {TOWN} maailmanlaajuiseksi {CARGO_LIST}keskukseksi.

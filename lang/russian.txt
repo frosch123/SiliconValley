@@ -1,0 +1,21 @@
+##plural 6
+
+STR_TOO_FEW_TOWNS            :Найдено {NUM} подходящ{P ий их их} город{P "" а ов}.{}Это ограничивает количество компаний, которым может быть сформирована цель :(
+STR_NO_TOWN                  :Нет подходящих городов для формирования цели.{}Цель не определена :(
+STR_NO_CARGO                 :Нет подходящих грузов для формирования цели.{}Цель не определена :(
+STR_GOAL_START               :{BLACK}Добро пожаловать!{}Вы родились в рубашке и вы не равнодушны к {WHITE}{CARGO_LIST}{BLACK}.{}Перед вами стоит цель превратить {WHITE}{TOWN}{BLACK} в {WHITE}{CARGO_LIST} рай{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Необходимо построить {WHITE}{NUM}{ORANGE} предприят{P ие ия ий}, производящих {WHITE}{CARGO_LIST}{ORANGE} около {WHITE}{TOWN}{ORANGE} (Построено {WHITE}{NUM} / {NUM}{ORANGE})
+STR_MIN_PRODUCTION           :{ORANGE}Необходимо перевезти не менее {WHITE}{CARGO_LONG}{ORANGE} с каждого предприятия в течении квартала (Перевезено в последнем квартале: {WHITE}{NUM} / {NUM}{ORANGE})
+STR_TOTAL_PRODUCTION         :{ORANGE}Необходимо перевезти не менее {WHITE}{CARGO_LONG}{ORANGE} (Перевезено в последнем квартале: {WHITE}{CARGO_SHORT}{ORANGE})
+STR_TIME_LEFT                :{ORANGE}Необходимо успеть к {WHITE}{DATE_LONG}{ORANGE} для достижения {STRING}{ORANGE} (Осталось {WHITE}{NUM} {P год года лет} и {NUM} месяц{P "" а ев}{ORANGE})
+
+STR_WON                      :{BLACK}Поздравляем, вы победили!{}Вам потребовал{P 0 ся ось ось} {WHITE}{NUM} {P год года лет} и {NUM} месяц{P "" а ев}{BLACK} для достижения цели.{}Результат: {STRING}{BLACK}!
+STR_WON_GOLD                 :{WHITE}Золотая{NBSP}медаль
+STR_WON_SILVER               :{WHITE}Серебряная{NBSP}медаль
+STR_WON_BRONCE               :{WHITE}Бронзовая{NBSP}медаль
+STR_WON_FAIL                 :{WHITE}печеньки
+
+STR_FAIL                     :{BLACK}Результат {STRING} не достигнут{BLACK}.{}Попробуйте достичь {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} рай!{}За {NUM} {P год года лет} и {NUM} месяц{P "" а ев} {COMPANY} превратила {TOWN} в мировой центр {CARGO_LIST}.

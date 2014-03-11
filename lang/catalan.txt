@@ -1,0 +1,21 @@
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Només {NUM} poblaci{P ó ons} adequad{P a es}.{}Això limita el nombre de companyies que poden tenir un objectiu :(
+STR_NO_TOWN                  :Ho lamentem, no hi ha població adequada per a un objectiu.{}No hi ha objectius per a tu :(
+STR_NO_CARGO                 :Ho lamentem, no hi ha tipus de càrrega apropiats per a un objectiu.{}No hi ha objectius per a tu :(
+STR_GOAL_START               :{BLACK}Benvingut!{}Vas nèixer portant un pa sota l'aixella. Ara tu ets un jove adult sense responsabilitats en la vida. Tot el que saps és que tens una debilitat secreta per {WHITE}{CARGO_LIST}{BLACK}.{}T'has fixat l'objectiu de convertir la teva població natal {WHITE}{TOWN}{BLACK} en {WHITE}{CARGO_LIST} Valley{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Construeix {WHITE}{NUM}{ORANGE} indústri{P a es} produint {WHITE}{CARGO_LIST}{ORANGE} prop de {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} completat)
+STR_MIN_PRODUCTION           :{ORANGE}Assegura't de transportar almenys {WHITE}{CARGO_LONG}{ORANGE} des de cada indústria en un mateix trimestre ({WHITE}{NUM} / {NUM}{ORANGE} durant l'últim trimestre)
+STR_TOTAL_PRODUCTION         :{ORANGE}Assegura't de transportar almenys {WHITE}{CARGO_LONG}{ORANGE} en total des de les industries ({WHITE}{CARGO_SHORT}{ORANGE} durant l'últim trimestre)
+STR_TIME_LEFT                :{ORANGE}Completa tots els objectius abans de {WHITE}{DATE_LONG}{ORANGE} per aconseguir {STRING}{ORANGE} (queden {WHITE}{NUM} any{P "" s} i {NUM} mes{P "" os}{ORANGE})
+
+STR_WON                      :{BLACK}Has guanyat!{}Has necessitat {WHITE}{NUM} any{P "" s} i {NUM} mes{P "" os}{BLACK} per a aconseguir l'objectiu.{}Això es mereix {STRING}{BLACK}!
+STR_WON_GOLD                 :una {WHITE}Medalla{NBSP}d'or
+STR_WON_SILVER               :una {WHITE}Medalla de{NBSP}plata
+STR_WON_BRONCE               :una {WHITE}Medalla de{NBSP}bronze
+STR_WON_FAIL                 :una {WHITE}galeta
+
+STR_FAIL                     :{BLACK}No has aconseguit {STRING}{BLACK}.{}Encara pots intentaar aconseguir {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} Valley!{}En {NUM} any{P "" s} i {NUM} mes{P "" os} {COMPANY} ha desenvolupat {TOWN} fins a ser el centre global de {CARGO_LIST}.

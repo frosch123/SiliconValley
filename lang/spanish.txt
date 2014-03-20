@@ -1,8 +1,10 @@
 ##plural 0
 
+STR_NO_TOWN                  :Lo siento, no hay ciudad adecuada alguna para marcar un objetivo.{}No hay metas para ti :(
 STR_NO_CARGO                 :Lo siento, no hay carga adecuada alguna para marcar un objetivo.{}No hay metas para ti :(
 STR_GOAL_START               :{BLACK}¡Bienvenido!{}Naciste con un pan bajo el brazo y todo en la vida te ha venido rodado. Ahora, eres un joven adulto sin responsabilidades en la vida. Todo lo que sabes es que tienes una debilidad secreta por {WHITE}{CARGO_LIST}{BLACK}.{}Y así, lleno de esperanzas, te has fijado el objetivo de convertir tu ciudad natal {WHITE}{TOWN}{BLACK} en ¡{WHITE}El valle de {CARGO_LIST}{BLACK}!
 
+STR_NUM_INDUSTRIES           :{ORANGE}Construcción de {WHITE}{NUM}{ORANGE} industri{P a as} productor{P a as} de {WHITE}{CARGO_LIST}{ORANGE} cerca de {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} completado)
 STR_MIN_PRODUCTION           :{ORANGE}Asegúrate de transportar al menos {WHITE}{CARGO_LONG}{ORANGE} de cada industria durante un trimestre. ({WHITE}{NUM} / {NUM}{ORANGE} transportados en el último trimestre).
 
 STR_WON_GOLD                 :Una {NBSP}medalla de {WHITE}oro

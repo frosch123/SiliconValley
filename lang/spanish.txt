@@ -1,5 +1,6 @@
 ##plural 0
 
+STR_TOO_FEW_TOWNS            :Una búsqueda meticulosa nos ha dado el resultado de solo {NUM} localidad{P "" es} en condiciones.{}Esto limita el número de empresas, y el que estas puedan tener una meta :(
 STR_NO_TOWN                  :Lo siento, no hay ciudad adecuada alguna para marcar un objetivo.{}No hay metas para ti :(
 STR_NO_CARGO                 :Lo siento, no hay carga adecuada alguna para marcar un objetivo.{}No hay metas para ti :(
 STR_GOAL_START               :{BLACK}¡Bienvenido!{}Naciste con un pan bajo el brazo y todo en la vida te ha venido rodado. Ahora, eres un joven adulto sin responsabilidades en la vida. Todo lo que sabes es que tienes una debilidad secreta por {WHITE}{CARGO_LIST}{BLACK}.{}Y así, lleno de esperanzas, te has fijado el objetivo de convertir tu ciudad natal {WHITE}{TOWN}{BLACK} en ¡{WHITE}El valle de {CARGO_LIST}{BLACK}!

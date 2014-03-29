@@ -10,6 +10,7 @@ STR_MIN_PRODUCTION           :{ORANGE}Asegúrate de transportar al menos {WHITE}
 STR_TOTAL_PRODUCTION         :{ORANGE}Asegúrate de transportar al menos {WHITE}{CARGO_LONG}{ORANGE} en total de las industrias. ({WHITE}{CARGO_SHORT}{ORANGE} transportados en el último trimestre).
 STR_TIME_LEFT                :{ORANGE}Completa todas las metas hasta {WHITE}{DATE_LONG}{ORANGE} para alcanzar los {STRING}{ORANGE} ({WHITE}{NUM} año{P "" s} y {NUM} mes{P "" es}{ORANGE} restantes)
 
+STR_WON                      :{BLACK}Has ganado!{}Has necesitado {WHITE}{NUM} año{P "" s} y {NUM} mes {P "" es}{BLACK} para lograr el objetivo.{}Ha sido un trabajo duro, ¡Pero ha merecido la pena {STRING}{BLACK}!!
 STR_WON_GOLD                 :Una {NBSP}medalla de {WHITE}oro
 STR_WON_SILVER               :Una {NBSP}medalla de {WHITE}plata
 STR_WON_BRONCE               :Una {NBSP}medalla de {WHITE}bronce

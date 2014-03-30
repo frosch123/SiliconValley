@@ -18,3 +18,4 @@ STR_WON_FAIL                 :Una {WHITE}galleta (y está un poco rancia) :-(
 
 STR_FAIL                     :{BLACK}Has fallado a la hora de lograr {STRING}{BLACK}.{}Todavía puedes intentar, y ahora conseguir {STRING}{BLACK}.
 
+STR_WON_NEWS                 :Es el valle de {CARGO_LIST}!{}En {NUM} año{P "" s} y {NUM} mes{P "" es} {COMPANY} ha logrado evolucionar y convertir a {TOWN} en el centro y máximo exponente mundial de {CARGO_LIST}.

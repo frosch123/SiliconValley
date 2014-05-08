@@ -7,6 +7,8 @@ STR_GOAL_START               :{BLACK}환영합니다!{}당신은 부유한 집�
 
 STR_NUM_INDUSTRIES           : {WHITE}{NUM}{ORANGE} {WHITE}{CARGO_LIST}{ORANGE}을  생산하는 산업시설을 {WHITE}{TOWN}{ORANGE}주위에 건설하시오. ({WHITE}{NUM}{ORANGE} 중 / {WHITE}{NUM}{ORANGE} 완료)
 STR_MIN_PRODUCTION           :{WHITE}{CARGO_LONG}{ORANGE}을 각 산업시설에서 첫 번째에서 ({WHITE}{NUM} / {NUM}{ORANGE}마지막 분기 까지){ORANGE}수송하도록 하십시오.
+STR_TOTAL_PRODUCTION         : {ORANGE}최소{WHITE}{CARGO_LONG}{ORANGE}의 화물을 운송하십시오 (지난 분기 수송량:{WHITE}{CARGO_SHORT}{ORANGE})
+STR_TIME_LEFT                :{ORANGE}당신에게 주어진 모든 목표를{WHITE}{DATE_LONG}{ORANGE}까지 이루기 위해 {STRING}{ORANGE} ({WHITE}{NUM}{P "" s}년 {NUM}{P "" s}개월 {ORANGE} 남음)
 
 STR_WON                      : {BLACK}당신이 이겼습니다!{}당신이 목표를 달성하기 위해 {WHITE}{NUM} {P "" s}년 {NUM} {P "" s}개월{BLACK}이 걸렸습니다.{}그것은 {STRING}의 값어치가 있습니다{BLACK}!
 STR_WON_GOLD                 :한 개의 {WHITE}금{NBSP}메달

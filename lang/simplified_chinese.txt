@@ -1,0 +1,21 @@
+##plural 1
+
+STR_TOO_FEW_TOWNS            :仅 {NUM} 个合适的城镇.{}这限制了可以拥有“建设目标”的公司的数目 :(
+STR_NO_TOWN                  :抱歉, 对你的目标，没有合适的城镇.{}没有适合你的目标 :(
+STR_NO_CARGO                 :抱歉, 对你的目标，没有合适的货物货物类型！.{}没有适合你的目标 :(
+STR_GOAL_START               :{BLACK}欢迎!{}你天生富贵. 现在，你成长为一个毫无负担的成年了. 但你知道你有一个阿喀琉斯之蹱： {WHITE}{CARGO_LIST}{BLACK}.{}你为自己设立了目标，将家乡 {WHITE}{TOWN}{BLACK} 建设成 {WHITE}{CARGO_LIST} 之都{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}建设{WHITE}{NUM}{ORANGE} 个加工厂 生产{WHITE}{CARGO_LIST}{ORANGE} 在 {WHITE}{TOWN}{ORANGE}附近 ({WHITE}{NUM} / {NUM}{ORANGE} 完成)
+STR_MIN_PRODUCTION           :{ORANGE} 一个季度内确保从每个加工厂运输至少 {WHITE}{CARGO_LONG}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE}上季度)
+STR_TOTAL_PRODUCTION         :{ORANGE}确保从该加工业至少运输 {WHITE}{CARGO_LONG}{ORANGE}  ({WHITE}{CARGO_SHORT}{ORANGE}上季度)
+STR_TIME_LEFT                :{ORANGE} 到 {WHITE}{DATE_LONG}{ORANGE} 完成所有目标来获得 {STRING}{ORANGE} (剩余{WHITE}{NUM} 年 {NUM} 月 {ORANGE} )
+
+STR_WON                      :{BLACK}胜利!{}你需要 {WHITE}{NUM} 年 {NUM} 月{BLACK} 来达成目标l.{}这值得 {STRING}{BLACK}!
+STR_WON_GOLD                 : {WHITE}金{NBSP}牌
+STR_WON_SILVER               : {WHITE}银{NBSP}牌
+STR_WON_BRONCE               : {WHITE}铜{NBSP}牌
+STR_WON_FAIL                 : {WHITE}曲奇 牌
+
+STR_FAIL                     :{BLACK}达成 {STRING}的目标失败了{BLACK}.{}你仍可尝试达成{STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} 之都!{} {NUM} 年 {NUM} 月 {COMPANY} 将 {TOWN} 发展成全球 {CARGO_LIST} 中心.

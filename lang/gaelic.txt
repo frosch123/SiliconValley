@@ -1,0 +1,21 @@
+##plural 13
+
+STR_TOO_FEW_TOWNS            :Cha deach ach {NUM} {P bhaile bhaile bailtean baile} iomchaidh a lorg.{}Cuingichidh seo an àireamh de chompanaidhean aig as urrainn amas a bhith :(
+STR_NO_TOWN                  :Duilich ach chan eil baile iomchaidh ann airson amais.{}Chan eil amas ann dhut :(
+STR_NO_CARGO                 :Duilich ach chan eil seòrsa carago iomchaidh ann airson amais.{}Chan eil amas ann dhut :(
+STR_GOAL_START               :{BLACK}Fàilte!{}’S ann dhut a rug an cat an cuilean. Nise, tha thu air d’ inbheachd a ruigsinn ’s chan eil cùram fon ghrèin ort. Ach tha rùn-dìomhair agad agus ’s e seo gu bheil thu ro dhèidheil air {WHITE}{0:CARGO_LIST}{BLACK}.{}Chuir thu romhad gun dèan thu gleann nan {WHITE}{2:CARGO_LIST} {BLACK} dhen bhaile agad fhèin, {WHITE}{1:TOWN}{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Tog {WHITE}{NUM}{ORANGE}{P gnìomhachas gnìomhachasan gnìomhachasan gnìomhachasan} a sholaireas {WHITE}{CARGO_LIST}{ORANGE} faisg air {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} coileanta)
+STR_MIN_PRODUCTION           :{ORANGE}Dèan cinnteach gun giùlain thu {WHITE}{CARGO_LONG}{ORANGE} air a char as lugha o gach gnìomhachas taobh a-staigh cairteil ({WHITE}{NUM} / {NUM}{ORANGE} sa chairteal mu dheireadh)
+STR_TOTAL_PRODUCTION         :{ORANGE}Dèan cinnteach gun giùlain thu {WHITE}{CARGO_LONG}{ORANGE} air a char as lugha gu h-iomlan o na gnìomhachasan ({WHITE}{CARGO_SHORT}{ORANGE} sa chairteal mu dheireadh)
+STR_TIME_LEFT                :{ORANGE}Cuilean a h-uile amas ro {WHITE}{DATE_LONG}{ORANGE} ach am bhuannaich thu {STRING}{ORANGE} ({WHITE}{NUM} {P bhliadhna bhliadhna bliadhnaichean bliadhna} agus {NUM} {P mhìos mhìos mìosan mìos}{ORANGE} air fhàgail)
+
+STR_WON                      :{BLACK}Bhuannaich thu!{}Thug thu {WHITE}{NUM} {P bhliadhna bhliadhna bliadhnaichean bliadhna} agus {NUM} {P mhìos mhìos mìosan mìos}{BLACK} gus an t-amas a ruigsinn.{}Is {STRING}{BLACK} an luach dha!
+STR_WON_GOLD                 :{WHITE}Bonn{NBSP}òir
+STR_WON_SILVER               :{WHITE}Bonn{NBSP}airgid
+STR_WON_BRONCE               :{WHITE}Bonn{NBSP}umha
+STR_WON_FAIL                 :{WHITE}briosgaid
+
+STR_FAIL                     :{BLACK}Cha deach leat {STRING}{BLACK} a bhuannachd.{}’S urrainn dhut fhathast feuchainn ri {STRING}{BLACK} a bhuannachd.
+
+STR_WON_NEWS                 :Gleann nan {0:CARGO_LIST}!{}Rinn{3:COMPANY} ionad na cruinne airson {5:CARGO_LIST} dhe bhaile {4:TOWN} taobh a-staigh {1:NUM} {P bhliadhna bhliadhna bliadhnaichean bliadhna} agus {2:NUM} {P mhìos mhìos mìosan mìos}.

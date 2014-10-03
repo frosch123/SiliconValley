@@ -4,5 +4,8 @@
  * to be available when OpenTTD scans the info.nut file.
  */
 
+/* This specifies the savegame version, increment on real changes to the script. */
 SELF_VERSION <- 3;
-SELF_DATE <- "2013-10-19";
+
+/* This is filled by 'make bundle' with proper content */
+SELF_DATE <- "unknown";

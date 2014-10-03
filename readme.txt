@@ -78,9 +78,20 @@ Free Software Foundation, Inc.
 =========
 
 Authors:
-   Code:             Christoph Elsenhans (aka frosch)
-   GS framework:     Leif Linse (aka Zuu)
+   Code:                 Christoph Elsenhans (aka frosch)
+   GS framework:         Leif Linse (aka Zuu)
 
 Translations:
-   Dutch:            Albert Hofkamp (aka Alberth)
-   Here could be your name! :)
+   Catalan:              juanjo
+   Chinese (Simplified): dirace
+   Croatian:             Voyager1
+   Czech:                MarkKiss
+   Dutch:                Alberth
+   English (US):         Supercheese
+   Finnish:              Arexander
+   German:               planetmaker, frosch
+   Korean:               kevin
+   Russian:              George
+   Scottish Gaelic:      GunChleoc
+   Spanish:              SilverSurferZzZ
+   Swedish:              Zuu

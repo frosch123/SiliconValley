@@ -1,0 +1,8 @@
+##plural 0
+
+STR_GOAL_START               :{BLACK}Salve!{}Natus es cum cochleare argenteo in ore. Nunc es iuvenis sine periculis in vita tua. Modo scis te valde petere {WHITE}{CARGO_LIST}{BLACK}.{}Statuisti metam tibi ipsi ut patria tua {WHITE}{TOWN}{BLACK} mutetur in {WHITE}Valles {CARGO_LIST}{BLACK}!
+
+
+
+STR_FAIL                     :{BLACK}Non potuisti attingere {STRING}{BLACK}.{}Tamen potes conari attingere {STRING}{BLACK}.
+

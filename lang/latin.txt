@@ -1,8 +1,21 @@
 ##plural 0
 
-STR_GOAL_START               :{BLACK}Salve!{}Natus es cum cochleare argenteo in ore. Nunc es iuvenis sine periculis in vita tua. Modo scis te valde petere {WHITE}{CARGO_LIST}{BLACK}.{}Statuisti metam tibi ipsi ut patria tua {WHITE}{TOWN}{BLACK} mutetur in {WHITE}Valles {CARGO_LIST}{BLACK}!
+STR_TOO_FEW_TOWNS            :Tantum {NUM} oppid{P um a} idone{P um a} reppert{P um a}.{}Itaque forsitan non omnes societates possint metam habere :(
+STR_NO_TOWN                  :Eheu! Nullum adest oppidum idoneum ad metam.{}Meta tibi non erit :(
+STR_NO_CARGO                 :Eheu! Nullum adest genus oneris idoneum ad metam.{}Meta tibi non erit :(
+STR_GOAL_START               :{BLACK}Salve!{}Natus es cum cochleare argenteo in ore. Nunc es iuvenis sine periculis in vita tua. Modo scis te valde petere haec onera: {WHITE}{CARGO_LIST}{BLACK}.{}Statuisti metam tibi ipsi ut patria tua {WHITE}{TOWN}{BLACK} sit {WHITE}Valles {CARGO_LIST}{BLACK}!
 
+STR_NUM_INDUSTRIES           :{ORANGE}Construe {WHITE}{NUM}{ORANGE} industria{P m s} quae effici{P t unt} {WHITE}{CARGO_LIST}{ORANGE} apud {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} perfectae)
+STR_MIN_PRODUCTION           :{ORANGE}Esto certus ut saltem {WHITE}{CARGO_LONG}{ORANGE} transportes abs quaque industria intra unum quadrantem ({WHITE}{NUM} / {NUM}{ORANGE} quadrante priore)
+STR_TOTAL_PRODUCTION         :{ORANGE}Esto certus ut saltem copiam {WHITE}{CARGO_LONG}{ORANGE} transportes abs industriis ({WHITE}{CARGO_SHORT}{ORANGE} quadrante priore)
+STR_TIME_LEFT                :{ORANGE}Perficere omnes metas ante {WHITE}{DATE_LONG}{ORANGE} ut attingas {STRING}{ORANGE} ({WHITE}{NUM} ann{P us i} {NUM}que mens{P is es}{ORANGE} remanent)
 
+STR_WON                      :{BLACK}Vicisti!{}{WHITE}{NUM} ann{P us i} {NUM}que mens{P is es}{BLACK} necessarii erant tibi ad metam perficiendam.{}Meruisti {STRING}{BLACK}!
+STR_WON_GOLD                 :{WHITE}Nomismam{NBSP}Auream
+STR_WON_SILVER               :{WHITE}Nomismam{NBSP}Argenteam
+STR_WON_BRONCE               :{WHITE}Nomismam{NBSP}Aenam
+STR_WON_FAIL                 :{WHITE}crustulum
 
 STR_FAIL                     :{BLACK}Non potuisti attingere {STRING}{BLACK}.{}Tamen potes conari attingere {STRING}{BLACK}.
 
+STR_WON_NEWS                 :Valles {CARGO_LIST}!{}Intra {NUM} ann{P um os} {NUM}que mense{P m s}, {COMPANY} evolvit {TOWN} in emporium {CARGO_LIST} globale.

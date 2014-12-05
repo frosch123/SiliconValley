@@ -1,0 +1,21 @@
+##plural 2
+
+STR_TOO_FEW_TOWNS            :{NUM} ville{P "" s} correspond.{}Cela limitera le nombre de compagnies qui peuvent concourrir :(
+STR_NO_TOWN                  :Désolé, aucune ville ne convient pour une mission. Pas d'objectif à remplir :(
+STR_NO_CARGO                 :Désolé, aucune cargaison ne convient pour une mission.{}Pas d'objectif à remplir :(
+STR_GOAL_START               :{BLACK}Bienvenue!{}Tu es né avec une cuillère en argent dans la bouche. Maintenant tu es une grande personne sans aucune attache. Ta seule faiblesse porte un nom{NBSP}: {WHITE}{CARGO_LIST}{BLACK}.{}Ton unique but est de tranformer {WHITE}{TOWN}{BLACK}, ta ville natale, en {WHITE}{CARGO_LIST} Valley{BLACK} !
+
+STR_NUM_INDUSTRIES           :{ORANGE}Construire {WHITE}{NUM}{ORANGE} industrie{P "" s} produisant{NBSP}: {WHITE}{CARGO_LIST}{ORANGE} près de {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE})
+STR_MIN_PRODUCTION           :{ORANGE}Transporter au moins {WHITE}{CARGO_LONG}{ORANGE} en un trimestre ({WHITE}{NUM} / {NUM}{ORANGE} le trimestre dernier)
+STR_TOTAL_PRODUCTION         :{ORANGE}transporter au moins {WHITE}{CARGO_LONG}{ORANGE} au total ({WHITE}{CARGO_SHORT}{ORANGE} le trimestre dernier)
+STR_TIME_LEFT                :{ORANGE}Accomplir tous les objectifs avant le {WHITE}{DATE_LONG}{ORANGE} et remporter {STRING}{ORANGE} (il reste {WHITE}{NUM} an{P "" s} et {NUM} mois{ORANGE})
+
+STR_WON                      :{BLACK}C'est gagé !{}Le but a été atteint en {WHITE}{NUM} an{P "" s} et {NUM} mois{BLACK} !{}Cet exploit mérite au moins {STRING}{BLACK}!
+STR_WON_GOLD                 :la {WHITE}médaille d'{NBSP}Or
+STR_WON_SILVER               :la {WHITE}médaille d'{NBSP}Argent
+STR_WON_BRONCE               :la {WHITE}médaille de{NBSP}Bronze
+STR_WON_FAIL                 :un {WHITE}cookie
+
+STR_FAIL                     :{BLACK}Tu n'as pas remporté {STRING}{BLACK}.{}Tu peux toujours essayer d'obtenir {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} Valley !{}En {NUM} an{P "" s} et {NUM} mois, {COMPANY} a transformé {TOWN} en grand centre pour acheter{NBSP}: {CARGO_LIST}.

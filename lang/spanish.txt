@@ -8,7 +8,7 @@ STR_GOAL_START               :{BLACK}¡Bienvenido!{}Naciste con un pan bajo el b
 STR_NUM_INDUSTRIES           :{ORANGE}Construcción de {WHITE}{NUM}{ORANGE} industri{P a as} productor{P a as} de {WHITE}{CARGO_LIST}{ORANGE} cerca de {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} completado)
 STR_MIN_PRODUCTION           :{ORANGE}Asegúrate de transportar al menos {WHITE}{CARGO_LONG}{ORANGE} de cada industria durante un trimestre. ({WHITE}{NUM} / {NUM}{ORANGE} transportados en el último trimestre).
 STR_TOTAL_PRODUCTION         :{ORANGE}Asegúrate de transportar al menos {WHITE}{CARGO_LONG}{ORANGE} en total de las industrias. ({WHITE}{CARGO_SHORT}{ORANGE} transportados en el último trimestre).
-STR_TIME_LEFT                :{ORANGE}Completa todas las metas hasta {WHITE}{DATE_LONG}{ORANGE} para alcanzar los {STRING}{ORANGE} ({WHITE}{NUM} año{P "" s} y {NUM} mes{P "" es}{ORANGE} restantes)
+STR_TIME_LEFT                :{ORANGE}Completa todas las metas hasta {WHITE}{DATE_LONG}{ORANGE} para conseguir {STRING}{ORANGE} ({WHITE}{NUM} año{P "" s} y {NUM} mes{P "" es}{ORANGE} restantes)
 
 STR_WON                      :{BLACK}Has ganado!{}Has necesitado {WHITE}{NUM} año{P "" s} y {NUM} mes {P "" es}{BLACK} para lograr el objetivo.{}Ha sido un trabajo duro, ¡Pero ha merecido la pena {STRING}{BLACK}!!
 STR_WON_GOLD                 :Una {NBSP}medalla de {WHITE}oro

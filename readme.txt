@@ -26,13 +26,13 @@ their town, they also have to fund sufficient industries to produce the cargo.
 Via the script settings the detailed goal parameters can be configured.
 
 * A time frame to complete the goal and achieve a Gold Medal.
-  To achive Silver or Bronze Medals the companies have 50% resp. 100% more
+  To achieve Silver or Bronze Medals the companies have 50% resp. 100% more
   time.
 * The type of cargo to use for the challenge, either Primary, Secondary or
   Any type.
 * The number of industries which must be present in the town to process the
   cargo. If there are not enough industries (the usual case), the companies
-  have to fund them themself.
+  have to fund additional industries themselves.
 * The minimal amount of cargo the company has to service for each of the
   industries to make them count for the goal.
 * The total amount of cargo the company has to service at the town to

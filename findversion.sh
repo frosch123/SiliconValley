@@ -63,7 +63,7 @@ DISPLAY_VERSION
 BRANCH
     The branch the version is based on
 DATE
-    The Date of the last commit in ISO format
+    The date of the last commit in ISO format
 
 
 By setting the AWK environment variable, a caller can determine which
@@ -88,14 +88,14 @@ MODIFIED=""
 REPO_DATE="2000,1,1"
 if [ -d "$ROOT_DIR/.hg" ]; then
 	# We are a hg checkout
-	if [ -n "`hg status -S | grep -v '^?'`" ]; then
+	if [ -n "`HGPLAIN= hg status -S | grep -v '^?'`" ]; then
 		MODIFIED="M"
 	fi
-	HASH=`LC_ALL=C hg id -i | cut -c1-12`
+	HASH=`LC_ALL=C HGPLAIN= hg id -i | cut -c1-12`
 	REV="h`echo $HASH | cut -c1-8`"
 	BRANCH="`hg branch | sed 's@^default$@@'`"
-	TAG="`hg id -t | grep -v 'tip$'`"
-	ISO_DATE="`hg log -r$HASH --template=\"{date|shortdate}\"`"
+	TAG="`HGPLAIN= hg id -t | grep -v 'tip$'`"
+	ISO_DATE="`HGPLAIN= hg log -r$HASH --template=\"{date|shortdate}\"`"
 	REPO_DATE="`echo ${ISO_DATE} | sed s/-/,/g | sed s/,0/,/g`"
 	VERSION=`python -c "from datetime import date; print (date($REPO_DATE)-date(2000,1,1)).days"`
 	DISPLAY_VERSION="v${VERSION}"

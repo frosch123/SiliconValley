@@ -89,8 +89,10 @@ Translations:
    Dutch:                Alberth
    English (US):         Supercheese
    Finnish:              Arexander
+   French:               arikover
    German:               planetmaker, frosch
    Korean:               kevin
+   Latin:                Supercheese
    Russian:              George
    Scottish Gaelic:      GunChleoc
    Spanish:              SilverSurferZzZ

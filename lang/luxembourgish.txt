@@ -1,0 +1,21 @@
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Nëmmen {NUM} passend D{P uerf ierfer} fonnd.{}Dëst limitéiert d'Unzuel u Firmen, déi en Zil kënnen hunn :(
+STR_NO_TOWN                  :Entschëllegt, et gëtt keng passend Stad fir en Zil.{}Keen Zil fir dech :(
+STR_NO_CARGO                 :Entschëllegt, et gëtt keng passend Wuerentypen déi een Zil erlaben{}Keen Zil fir dech :(
+STR_GOAL_START               :{BLACK}Moien!{}Du bass a gudden Verhältnisser opgewuess. Lo bass du erwuessen an hues keng Verpflichtungen am Liewen. Du hues allerdéngs eng Virléift fir {WHITE}{CARGO_LIST}{BLACK}.{}Du hues der selwer d'Zil gesat, déng Heemscht an {WHITE}{TOWN}{BLACK}{WHITE}{CARGO_LIST}-Dall{BLACK} ze verwandeln!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Bau {WHITE}{NUM}{ORANGE} Industr{P ie ien} déi {WHITE}{CARGO_LIST} produzéiren {ORANGE} an der Géigend vun {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} ofgeschloss)
+STR_MIN_PRODUCTION           :{ORANGE}Transportéier op manst en Total vun {WHITE}{CARGO_LONG}{ORANGE} vun all Industrie an engem Quartal ({WHITE}{NUM} / {NUM}{ORANGE} lescht Quartal)
+STR_TOTAL_PRODUCTION         :{ORANGE}Transportéier op manst en Total vun {WHITE}{CARGO_LONG}{ORANGE} vun den Industrien ({WHITE}{CARGO_SHORT}{ORANGE} lescht Quartal)
+STR_TIME_LEFT                :{ORANGE}Pack all Ziler bis den {WHITE}{DATE_LONG}{ORANGE} fir {STRING}{ORANGE} ze packen ({WHITE}{NUM} Joer an {NUM} M{P ount éint}{ORANGE} rescht)
+
+STR_WON                      :{BLACK}Du hues gewonn!{}Du hues {WHITE}{NUM} Joer an {NUM} M{P ount éint} gebraucht fir {BLACK} d'Zil ze erreechen.{}Dat ass {STRING}{BLACK} wäert!
+STR_WON_GOLD                 :eng {WHITE}Goldmedaille
+STR_WON_SILVER               :eng {WHITE}Sëlwermedaille
+STR_WON_BRONCE               :eng {WHITE}Bronzemedaille
+STR_WON_FAIL                 :e {WHITE}Kichelchen
+
+STR_FAIL                     :{BLACK}Aufgab net gepackt: {STRING}{BLACK}.{}Du kanns nach emmer probéiren {STRING}{BLACK} ze packen.
+
+STR_WON_NEWS                 :{CARGO_LIST}-Dall!{}An {NUM} Joer an {NUM} M{P ount éint} huet d'Firma {COMPANY} {TOWN} an en globalt Zentrum fir {CARGO_LIST} verwandelt.

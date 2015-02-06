@@ -1,0 +1,21 @@
+##plural 0
+
+STR_TOO_FEW_TOWNS            :Soltanto {NUM} citt{P á á} adatte sono trovate.{}Questo limita il numbero di compagnie che possono avere un obiettivo :(
+STR_NO_TOWN                  :Scusate, no ci sono cittá adatte per l'obiettivo.{}Non c'é un obiettivo per voi :(
+STR_NO_CARGO                 :Scusate, non ci sono tipi di merci adatte per l'obiettivo.{}Non c'é un obiettivo per voi :(
+STR_GOAL_START               :{BLACK}Benvenuti!{}Siete nati con un cucchiaio d'argento in bocca. Ora siete un giovane adulto senza debiti. Tutto che sapete é che avete una debolezza segreta per {WHITE}{CARGO_LIST}{BLACK}.{}Avete preso l'obiettivo di creare la vostra cittá di nascita {WHITE}{TOWN}{BLACK} nella {WHITE}Valle di {CARGO_LIST}{BLACK}!
+
+STR_NUM_INDUSTRIES           :{ORANGE}Costruite {WHITE}{NUM}{ORANGE} l'industri{P a e} per produzione di {WHITE}{CARGO_LIST}{ORANGE} vicino a {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} completato)
+STR_MIN_PRODUCTION           :{ORANGE}Assicuratevi di trasportare almeno {WHITE}{CARGO_LONG}{ORANGE} da ogni industria in un quartale ({WHITE}{NUM} / {NUM}{ORANGE} quartale scorso)
+STR_TOTAL_PRODUCTION         :{ORANGE}Assicuratevi di trasportare almeno {WHITE}{CARGO_LONG}{ORANGE} in totale dal'industrie ({WHITE}{CARGO_SHORT}{ORANGE} quartale scorso)
+STR_TIME_LEFT                :{ORANGE}Completate tutti obiettivi entro {WHITE}{DATE_LONG}{ORANGE} per raggiungere {STRING}{ORANGE} ({WHITE}{NUM} ann{P o i} e {NUM} mes{P e i}{ORANGE} rimasto)
+
+STR_WON                      :{BLACK}Avete vinto!{}Avevate bisogno di {WHITE}{NUM} ann{P o i} e {NUM} mes{P e i}{BLACK} per raggiungere l'obiettivo.{}Questo ha il valore di {STRING}{BLACK}!
+STR_WON_GOLD                 :la Medaglia d'{WHITE}Oro{NBSP}
+STR_WON_SILVER               :la Medaglia d'{WHITE}Argento{NBSP}
+STR_WON_BRONCE               :la Medaglia di {WHITE}Bronzo{NBSP}
+STR_WON_FAIL                 :un {WHITE}biscotto
+
+STR_FAIL                     :{BLACK}Avete fallito di raggiungere {STRING}{BLACK}.{}Potete ancora provare a raggiungere {STRING}{BLACK}.
+
+STR_WON_NEWS                 :{CARGO_LIST} Valle!{}Entro {NUM} ann{P o i} e {NUM} mes{P e i} {COMPANY} ha evoluto {TOWN} in un centro globale per {CARGO_LIST}.

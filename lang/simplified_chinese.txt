@@ -3,7 +3,7 @@
 STR_TOO_FEW_TOWNS            :仅 {NUM} 个合适的城镇.{}这限制了可以拥有“建设目标”的公司的数目 :(
 STR_NO_TOWN                  :抱歉, 对你的目标，没有合适的城镇.{}没有适合你的目标 :(
 STR_NO_CARGO                 :抱歉, 对你的目标，没有合适的货物货物类型！.{}没有适合你的目标 :(
-STR_GOAL_START               :{BLACK}欢迎!{}你天生富贵. 现在，你成长为一个毫无负担的成年了. 但你知道你有一个阿喀琉斯之蹱： {WHITE}{CARGO_LIST}{BLACK}.{}你为自己设立了目标，将家乡 {WHITE}{TOWN}{BLACK} 建设成 {WHITE}{CARGO_LIST} 之都{BLACK}!
+STR_GOAL_START               :{BLACK}欢迎!{}你天生贵胄. 时光流转，你在无忧无虑中已经成年. 但你知道自己有一个阿喀琉斯之蹱： {WHITE}{CARGO_LIST}{BLACK} .{}你发下宏愿，将家乡 {WHITE}{TOWN}{BLACK} 建设成 {WHITE}{CARGO_LIST}之都{BLACK} !
 
 STR_NUM_INDUSTRIES           :{ORANGE}建设{WHITE}{NUM}{ORANGE} 个加工厂 生产{WHITE}{CARGO_LIST}{ORANGE} 在 {WHITE}{TOWN}{ORANGE}附近 ({WHITE}{NUM} / {NUM}{ORANGE} 完成)
 STR_MIN_PRODUCTION           :{ORANGE} 一个季度内确保从每个加工厂运输至少 {WHITE}{CARGO_LONG}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE}上季度)

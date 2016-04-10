@@ -1,3 +1,4 @@
+##plural 10
 
 STR_TOO_FEW_TOWNS            :Nalezeno pouze {NUM} vhodných měst.{}Kvůli tomu může hrát jen omezený počet společností :(
 STR_NO_TOWN                  :Omlouváme se, ale není pro Vás žádné vhodné město. Žádný cíl nebude. :(

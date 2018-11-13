@@ -1,0 +1,7 @@
+##plural 1
+
+
+
+
+STR_FAIL                     :{BLACK}Anda gagal mencapai {STRING}{BLACK}.{}Anda masih bisa mencoba mencapai {STRING}{BLACK}.
+

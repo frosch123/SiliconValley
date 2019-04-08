@@ -2,20 +2,20 @@
 
 STR_TOO_FEW_TOWNS            :Slechts {NUM} bruikbare st{P "ad" "eden"} gevonden.{}Dit beperkt het aantal bedrijven dat voor een doel kunnen spelen :(
 STR_NO_TOWN                  :Sorry, er is geen bruikbare stad voor een doel.{}Geen doel voor jou :(
-STR_NO_CARGO                 :Sorry, er zijn geen bruikbare goederen types voor een doel.{}Geen doel voor jou :(
-STR_GOAL_START               :{BLACK}Welkom!{}Je bent opgegroeid in een welgestelde familie. Nu ben je een jong volwassene zonder zorgen over het leven. Je weet alleen dat je een geheime zwakte hebt voor {WHITE}{CARGO_LIST}{BLACK}.{}Je hebt jezelf als doel gesteld om je geboortestad {WHITE}{TOWN}{BLACK} om te toveren in {WHITE}{CARGO_LIST} Valley{BLACK}!
+STR_NO_CARGO                 :Sorry, er zijn geen bruikbare goederentypes voor een doel.{}Geen doel voor jou :(
+STR_GOAL_START               :{BLACK}Welkom!{}Je bent opgegroeid in een welgestelde familie. Nu ben je een jongvolwassene zonder zorgen over het leven. Je weet alleen dat je een geheime zwak hebt voor {WHITE}{CARGO_LIST}{BLACK}.{}Je hebt jezelf als doel gesteld om je geboortestad {WHITE}{TOWN}{BLACK} om te toveren in {WHITE}{CARGO_LIST}-polis{BLACK}!
 
 STR_NUM_INDUSTRIES           :{ORANGE}Bouw {WHITE}{NUM}{ORANGE} industrie{P "" "ën"} die {WHITE}{CARGO_LIST}{ORANGE} ma{P 0 "akt" "ken"} in de buurt van {WHITE}{TOWN}{ORANGE} ({WHITE}{NUM} / {NUM}{ORANGE} gedaan)
-STR_MIN_PRODUCTION           :{ORANGE}Zorg ervoor om minstens {WHITE}{CARGO_LONG}{ORANGE} van elke industrie te vervoeren in één kwartiel ({WHITE}{NUM} / {NUM}{ORANGE} laatste kwartiel)
-STR_TOTAL_PRODUCTION         :{ORANGE}Zorg ervoor om in totaal minstens {WHITE}{CARGO_LONG}{ORANGE} van de industrieën te vervoeren ({WHITE}{CARGO_SHORT}{ORANGE} laatste kwartiel)
-STR_TIME_LEFT                :{ORANGE}Haal alle doelen voor {WHITE}{DATE_LONG}{ORANGE} om een {STRING}{ORANGE} te behalen (nog {WHITE}{NUM} jaren en {NUM} maanden{ORANGE} te gaan)
+STR_MIN_PRODUCTION           :{ORANGE}Zorg ervoor om minstens {WHITE}{CARGO_LONG}{ORANGE} van elke industrie te vervoeren in één kwartaal ({WHITE}{NUM} / laatste kwartaal {NUM}{ORANGE})
+STR_TOTAL_PRODUCTION         :{ORANGE}Zorg ervoor om in totaal minstens {WHITE}{CARGO_LONG}{ORANGE} van de industrieën te vervoeren ({WHITE}laatste kwartaal {CARGO_SHORT}{ORANGE})
+STR_TIME_LEFT                :{ORANGE}Haal alle doelen vóór {WHITE}{DATE_LONG}{ORANGE} om een {STRING}{ORANGE} te behalen (nog {WHITE}{NUM} jaar en {NUM} maanden{ORANGE} te gaan)
 
-STR_WON                      :{BLACK}Je hebt gewonnen!{}Je had {WHITE}{NUM} ja{P "ar" "aren"} en {NUM} maand{P "" "en"}{BLACK} nodig om het doel te behalen.{}Dat is {STRING}{BLACK} waard!
-STR_WON_GOLD                 :een {WHITE}gouden{NBSP}medaille
-STR_WON_SILVER               :een {WHITE}silveren{NBSP}medaille
-STR_WON_BRONCE               :een {WHITE}bronzen{NBSP}medaille
+STR_WON                      :{BLACK}Je hebt gewonnen!{}Je had {WHITE}{NUM} jaar en {NUM} maand{P "" "en"}{BLACK} nodig om het doel te behalen.{}Dat is {STRING}{BLACK} waard!
+STR_WON_GOLD                 :een {WHITE}gouden medaille
+STR_WON_SILVER               :een {WHITE}zilveren medaille
+STR_WON_BRONCE               :een {WHITE}bronzen medaille
 STR_WON_FAIL                 :{WHITE}niets
 
 STR_FAIL                     :{BLACK}Je hebt gefaald in het behalen van {STRING}{BLACK}.{}Je kunt nog proberen om {STRING}{BLACK} te behalen.
 
-STR_WON_NEWS                 :{CARGO_LIST} Valley!{}Binnen {NUM} ja{P "ar" "aren"} en {NUM} maand{P "" "en"} heeft {COMPANY} stad {TOWN} omgetoverd tot het wereldwijde centrum voor {CARGO_LIST}.
+STR_WON_NEWS                 :{CARGO_LIST}-polis!{}Binnen {NUM} jaar en {NUM} maand{P "" "en"} heeft {COMPANY} stad {TOWN} omgetoverd tot het wereldwijde centrum voor {CARGO_LIST}.
